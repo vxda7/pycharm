@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25bc13ee-e83b-4d1b-98c5-176238f8e5e1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/flatten.py" beforeDir="false" afterPath="$PROJECT_DIR$/flatten.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,58 +14,42 @@
     <session id="2101846402">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.0" value="2" />
-          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="22" />
+          <entry key="py" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="22" />
+          <entry key="Python" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="9612" />
+          <entry key="py" value="11228" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="9612" />
+          <entry key="Python" value="11228" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/flatten.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="28">
-              <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
-              <folding>
-                <marker date="1565771248060" expanded="true" signature="72:289" ph="..." />
-                <marker date="1565771248060" expanded="true" signature="448:450" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sequential.py">
+        <entry file="file://$PROJECT_DIR$/arraysum.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="13" selection-start-line="13" selection-end-line="22" selection-end-column="8" />
-              <folding>
-                <marker date="1565765122909" expanded="true" signature="233:238" ph="..." />
-              </folding>
+            <state relative-caret-position="588">
+              <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -74,7 +58,7 @@
         <entry file="file://$PROJECT_DIR$/sortedsequen.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="308">
-              <caret line="11" column="8" lean-forward="true" selection-end-line="11" selection-end-column="8" />
+              <caret line="11" column="8" selection-end-line="11" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -82,7 +66,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/binary.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="62">
+            <state relative-caret-position="280">
               <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
               <folding>
                 <marker date="1565769881958" expanded="true" signature="236:596" ph="..." />
@@ -95,7 +79,7 @@
         <entry file="file://$PROJECT_DIR$/binarybook.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="392">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <marker date="1565770512817" expanded="true" signature="22:303" ph="..." />
                 <marker date="1565770512817" expanded="true" signature="319:418" ph="..." />
@@ -105,10 +89,27 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rowcolumn.py">
+        <entry file="file://$PROJECT_DIR$/snail.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="308">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+              <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+              <folding>
+                <marker date="1565918819119" expanded="true" signature="255:273" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/temp.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="753">
+              <caret line="62" column="7" selection-start-line="62" selection-start-column="7" selection-end-line="62" selection-end-column="7" />
+              <folding>
+                <marker date="1565924862897" expanded="true" signature="522:529" ph="..." />
+                <marker date="1565924862897" expanded="true" signature="680:902" ph="..." />
+                <marker date="1565924862897" expanded="true" signature="961:966" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -126,7 +127,7 @@
         <entry file="file://$PROJECT_DIR$/color.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="196">
-              <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+              <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -134,7 +135,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sideplus.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
+            <state relative-caret-position="1624">
               <caret line="58" column="38" selection-start-line="58" selection-start-column="38" selection-end-line="58" selection-end-column="38" />
             </state>
           </provider>
@@ -187,11 +188,14 @@
         <option value="$PROJECT_DIR$/binary.py" />
         <option value="$PROJECT_DIR$/binarybook.py" />
         <option value="$PROJECT_DIR$/flatten.py" />
+        <option value="$PROJECT_DIR$/arraysum.py" />
+        <option value="$PROJECT_DIR$/snail.py" />
+        <option value="$PROJECT_DIR$/temp.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
+    <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -234,7 +238,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.binary">
+  <component name="RunManager" selected="Python.temp">
     <configuration name="binary" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ssafy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -298,7 +302,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="sideplus" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="snail" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ssafy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -310,7 +314,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sideplus.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/snail.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -319,7 +323,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="subset" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="temp" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ssafy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -331,7 +335,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/subset.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/temp.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -341,19 +345,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.sideplus" />
-      <item itemvalue="Python.subset" />
       <item itemvalue="Python.sequential" />
       <item itemvalue="Python.binary" />
       <item itemvalue="Python.binarybook" />
+      <item itemvalue="Python.snail" />
+      <item itemvalue="Python.temp" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.temp" />
+        <item itemvalue="Python.snail" />
         <item itemvalue="Python.binary" />
         <item itemvalue="Python.binarybook" />
         <item itemvalue="Python.sequential" />
-        <item itemvalue="Python.subset" />
-        <item itemvalue="Python.sideplus" />
       </list>
     </recent_temporary>
   </component>
@@ -371,15 +375,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
-    <editor active="true" />
+    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.08658923" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24570815" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.325477" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.325477" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39955106" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -455,9 +458,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-          <folding>
-            <marker date="1565673624553" expanded="true" signature="180:182" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -465,9 +465,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="12" selection-end-column="26" />
-          <folding>
-            <marker date="1565675024445" expanded="true" signature="44:49" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -482,6 +479,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="39" selection-start-column="39" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flatten.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="4" column="23" lean-forward="true" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sequential.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="13" selection-start-line="13" selection-end-line="22" selection-end-column="8" />
+          <folding>
+            <marker date="1565765122909" expanded="true" signature="233:238" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -502,13 +516,13 @@
     <entry file="file://$PROJECT_DIR$/color.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
-          <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sideplus.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
+        <state relative-caret-position="1624">
           <caret line="58" column="38" selection-start-line="58" selection-start-column="38" selection-end-line="58" selection-end-column="38" />
         </state>
       </provider>
@@ -520,26 +534,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sequential.py">
+    <entry file="file://$PROJECT_DIR$/arraysum.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="13" selection-start-line="13" selection-end-line="22" selection-end-column="8" />
-          <folding>
-            <marker date="1565765122909" expanded="true" signature="233:238" ph="..." />
-          </folding>
+        <state relative-caret-position="588">
+          <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sortedsequen.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
-          <caret line="11" column="8" lean-forward="true" selection-end-line="11" selection-end-column="8" />
+          <caret line="11" column="8" selection-end-line="11" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/binary.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
+        <state relative-caret-position="280">
           <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
           <folding>
             <marker date="1565769881958" expanded="true" signature="236:596" ph="..." />
@@ -550,7 +561,7 @@
     <entry file="file://$PROJECT_DIR$/binarybook.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="392">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
             <marker date="1565770512817" expanded="true" signature="22:303" ph="..." />
             <marker date="1565770512817" expanded="true" signature="319:418" ph="..." />
@@ -558,13 +569,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flatten.py">
+    <entry file="file://$PROJECT_DIR$/snail.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+        <state relative-caret-position="308">
+          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
           <folding>
-            <marker date="1565771248060" expanded="true" signature="72:289" ph="..." />
-            <marker date="1565771248060" expanded="true" signature="448:450" ph="..." />
+            <marker date="1565918819119" expanded="true" signature="255:273" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/temp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="753">
+          <caret line="62" column="7" selection-start-line="62" selection-start-column="7" selection-end-line="62" selection-end-column="7" />
+          <folding>
+            <marker date="1565924862897" expanded="true" signature="522:529" ph="..." />
+            <marker date="1565924862897" expanded="true" signature="680:902" ph="..." />
+            <marker date="1565924862897" expanded="true" signature="961:966" ph="..." />
           </folding>
         </state>
       </provider>
