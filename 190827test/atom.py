@@ -14,7 +14,7 @@ for tc in range(1, t+1):
 
     for i in range(n):
         # empty[atoms[i][0]+best,atoms[i][1]+best] = 1
-        space[atoms[i][0]+best,atoms[i][1]+best] = [atoms[i][0]+best, atoms[i][1]+best, atoms[i][2], atoms[i][3]]
+        space[atoms[i][0]+best, atoms[i][1]+best] = [atoms[i][0]+best, atoms[i][1]+best, atoms[i][2], atoms[i][3]]
 
 
     di = [1, -1, 0, 0]
