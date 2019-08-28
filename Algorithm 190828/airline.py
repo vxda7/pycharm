@@ -13,39 +13,7 @@ for tc in range(1, t+1):
         before = ground[col][0]
         ready = 0   # 평탄이 x칸 있나?
         ok = True   # 설치 가능성
-        for row in range(n):
-            check = before - ground[col][row]
-            if check == -1:     # 오르막
-                if ready < x:   # 준비된 평탄지 보다 x가 크면 끝
-                    ok = False
-                    break
-                ready = 1
-            elif check == 1:    # 내리막
-                ready = 1
-                if row+x <= n:
-                    if list(ground[col][row:row+x]) != [ground[col][row]]*x:
-                        ok = False
-                        break
-                else:
-                    ok = False
-                    break
-            elif check == 0:
-                ready += 1
-            else:
-                ok = False
-                break
-            before = ground[col][row]
-        if ok:
-            print(col)
-            num += 1
-
-    ground = list(zip(*ground))
-    print(ground)
-    for col in range(n):
-        before = ground[col][0]
-        ready = 0   # 평탄이 x칸 있나?
-        ok = True   # 설치 가능성
-        setting = True  # 받침대 설치 위치
+        setting = 0  # 받침대 설치 위치
         for row in range(n):
             check = before - ground[col][row]
             if check == -1:     # 오르막
@@ -60,7 +28,8 @@ for tc in range(1, t+1):
                         ok = False
                         break
                     else:
-                        setting = 
+                        ready -= x
+                        # setting = row + x - 1
                 else:
                     ok = False
                     break
@@ -71,7 +40,44 @@ for tc in range(1, t+1):
                 break
             before = ground[col][row]
         if ok:
-            print(col)
+            # print(col)
+            num += 1
+
+    ground = list(zip(*ground))
+
+    # print(ground)
+    for col in range(n):
+        before = ground[col][0]
+        ready = 0   # 평탄이 x칸 있나?
+        ok = True   # 설치 가능성
+        setting = 0  # 받침대 설치 위치
+        for row in range(n):
+            check = before - ground[col][row]
+            if check == -1:     # 오르막
+                if ready < x:   # 준비된 평탄지 보다 x가 크면 끝
+                    ok = False
+                    break
+                ready = 1
+            elif check == 1:    # 내리막
+                ready = 1
+                if row+x <= n:
+                    if list(ground[col][row:row+x]) != [ground[col][row]]*x:
+                        ok = False
+                        break
+                    else:
+                        ready -= x
+                        # setting = row + x - 1
+                else:
+                    ok = False
+                    break
+            elif check == 0:
+                ready += 1
+            else:
+                ok = False
+                break
+            before = ground[col][row]
+        if ok:
+            # print(col)
             num += 1
 
     print("#{} {}".format(tc, num))
