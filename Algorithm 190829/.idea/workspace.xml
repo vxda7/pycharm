@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b7c7dacf-0775-4610-b29d-76bb8c3f75cf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../Algorithm 190828/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm 190828/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algorithm 190828/Othello.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm 190828/Othello.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,28 +14,29 @@
     <session id="817207145">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="9" />
+          <entry key="py" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="9" />
+          <entry key="Python" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="4143" />
+          <entry key="py" value="4697" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="4143" />
+          <entry key="Python" value="4697" />
         </counts>
       </usages-collector>
     </session>
@@ -79,11 +79,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/average.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
               <caret line="9" column="48" lean-forward="true" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/knapsack.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -142,6 +151,7 @@
         <option value="$PROJECT_DIR$/plus.py" />
         <option value="$PROJECT_DIR$/triangle.py" />
         <option value="$PROJECT_DIR$/average.py" />
+        <option value="$PROJECT_DIR$/knapsack.py" />
       </list>
     </option>
   </component>
@@ -186,7 +196,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.average">
+  <component name="RunManager" selected="Python.knapsack">
     <configuration name="average" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Algorithm 190829" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -208,7 +218,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="hap" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="knapsack" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Algorithm 190829" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -220,7 +230,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hap.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/knapsack.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -293,19 +303,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.hap" />
       <item itemvalue="Python.test" />
       <item itemvalue="Python.plus" />
       <item itemvalue="Python.triangle" />
       <item itemvalue="Python.average" />
+      <item itemvalue="Python.knapsack" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.knapsack" />
         <item itemvalue="Python.average" />
         <item itemvalue="Python.triangle" />
         <item itemvalue="Python.plus" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.hap" />
       </list>
     </recent_temporary>
   </component>
@@ -324,7 +334,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24892704" />
@@ -335,7 +344,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.19640853" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.19640853" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -408,6 +417,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="9" column="48" lean-forward="true" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/knapsack.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
         </state>
       </provider>
     </entry>
