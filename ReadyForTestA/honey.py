@@ -1,6 +1,6 @@
-# import sys
-#
-# sys.stdin = open("sample_input (5).txt", "r")
+import sys
+
+sys.stdin = open("sample_input (5).txt", "r")
 
 
 def find(choose, N):
@@ -29,7 +29,7 @@ def catch(res):
         for one in temp:
             hap += res[one] ** 2
             ok += res[one]
-        if hap > best and ok <= C:
+        if hap > tbest and ok <= C:
             tbest = hap
     return tbest
 
@@ -50,7 +50,6 @@ for tc in range(1, t + 1):
 
     # 경우의 수를 하나 선택
     best = 0
-    each = []
     for i in range(len(all)):
         choose1 = all[i][0]
         choose2 = all[i][1]
