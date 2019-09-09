@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17995494-7599-4ee4-a026-b26409b6fbb2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/ReadyForTestA.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ReadyForTestA.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atom.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/honey.py" beforeDir="false" afterPath="$PROJECT_DIR$/honey.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +41,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.honey">
+  <component name="RunManager" selected="Python.atom">
+    <configuration name="atom" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ReadyForTestA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/atom.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="honey" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ReadyForTestA" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -89,9 +108,11 @@
     <list>
       <item itemvalue="Python.mountain" />
       <item itemvalue="Python.honey" />
+      <item itemvalue="Python.atom" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.atom" />
         <item itemvalue="Python.honey" />
         <item itemvalue="Python.mountain" />
       </list>
@@ -115,7 +136,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
