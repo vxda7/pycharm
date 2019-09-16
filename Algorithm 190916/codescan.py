@@ -1,39 +1,39 @@
-# import sys
-#
-# sys.stdin = open("sample_input (11).txt", "r")
+import sys
 
+sys.stdin = open("sample_input (11).txt", "r")
 
-# def find(N, M):
-#     global codearray
-#     res = set()
-#     for i in range(N - 1, -1, -1):
-#         temp = codearray[i].strip('0')
-#         while '0000' in temp:
-#             start = 0
-#             for j in range(len(temp) - 4):
-#                 if temp[j:j + 4] == '0000':
-#                     res.add(temp[start:j].strip('0'))
-#                     temp = temp[j:].strip('0')
-#                     start += len(temp[start:j])
-#         temp = temp.strip('0')
-#         res.add(temp)
-#         # print(res)
-#         res.discard('')
-#     return res
 
 def find(N, M):
     global codearray
     res = set()
-    for i in range(N):
-        temp = ''
-        for j in range(M):
-            if codearray[i][j] != 0:
-                temp += codearray[i][j]
-            elif len(temp) >= 14 and codearray[i][j] == 0:
-                res.add(temp)
-                temp = ''
+    for i in range(N - 1, -1, -1):
+        temp = codearray[i].strip('0')
+        while '0000' in temp:
+            start = 0
+            for j in range(len(temp) - 4):
+                if temp[j:j + 4] == '0000':
+                    res.add(temp[start:j].strip('0'))
+                    temp = temp[j:].strip('0')
+                    start += len(temp[start:j])
+        temp = temp.strip('0')
+        res.add(temp)
     res.discard('')
     return res
+
+# def find(N, M):
+#     global codearray
+#     res = set()
+#     for i in range(N):
+#         temp = ''
+#         for j in range(M):
+#             if codearray[i][j] != '0':
+#                 temp += codearray[i][j]
+#             # print(temp)
+#             if len(temp) >= 14 and codearray[i][j] == '0':
+#                 res.add(temp)
+#                 temp = ''
+#     res.discard('')
+#     return res
 
 
 

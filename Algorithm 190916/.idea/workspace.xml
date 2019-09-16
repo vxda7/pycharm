@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aed697c3-256c-416b-9087-ce18b3920be3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Algorithm 190916.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Algorithm 190916.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/codescan.py" beforeDir="false" afterPath="$PROJECT_DIR$/codescan.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codescan3.py" beforeDir="false" afterPath="$PROJECT_DIR$/codescan3.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
