@@ -2,189 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aed697c3-256c-416b-9087-ce18b3920be3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bankjob.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/binnum.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/binnum2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codescan.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codescan2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codescan3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decorate.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hornforest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lognestpath.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algorithm 190911/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm 190911/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../김승연.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../김승연_Arithmetic.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../김승연_Forth.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../김승연_airline.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../김승연_bumuk.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../김승연_farm.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../김승연_flyX.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../김승연_flyall.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../김승연_im기출.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../김승연_maze.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../김승연_nodesum.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../김승연_pipe_재귀초과.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../김승연_rot.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../김승연_subtree.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../김승연_괄호검사.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../김승연_글자수.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../김승연_문자열비교.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../김승연_반복문자지우기.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../김승연_수열편집.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../김승연_숫자추가.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../김승연_암호.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../김승연_종이붙이기.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Algorithm 190916.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Algorithm 190916.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codescan.py" beforeDir="false" afterPath="$PROJECT_DIR$/codescan.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="657275691">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="py" value="12" />
-          <entry key="txt" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="12" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="py" value="10344" />
-          <entry key="txt" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="10344" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hornforest.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="53" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lognestpath.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/decorate.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bankjob.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="36" column="11" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
-              <folding>
-                <marker date="1568619476956" expanded="true" signature="302:493" ph="..." />
-                <marker date="1568619476956" expanded="true" signature="903:1001" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/codescan.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="69" column="47" lean-forward="true" selection-start-line="69" selection-start-column="47" selection-end-line="69" selection-end-column="47" />
-              <folding>
-                <marker date="1568624392933" expanded="true" signature="76:2742" ph="..." />
-                <marker date="1568624392933" expanded="true" signature="1825:2534" ph="..." />
-                <marker date="1568624392933" expanded="true" signature="2550:2555" ph="..." />
-                <marker date="1568624392933" expanded="true" signature="2562:2742" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/codescan2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="19" selection-start-line="19" selection-end-line="32" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/codescan3.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="64" />
-              <folding>
-                <marker date="1568618597798" expanded="true" signature="17:284" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sample_input (11).txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="453">
-              <caret line="15221" lean-forward="true" selection-start-line="13220" selection-end-line="15221" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/binnum.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/binnum2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="16" selection-start-column="16" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -193,61 +20,13 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>1E1FE1E001FE01FE01E001E1FE</find>
-      <find>0000</find>
-      <find>18B17AC49A32634</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/binnum.py" />
-        <option value="$PROJECT_DIR$/binnum2.py" />
-        <option value="$USER_HOME$/Downloads/김선만.py" />
-        <option value="$PROJECT_DIR$/hornforest.py" />
-        <option value="$PROJECT_DIR$/lognestpath.py" />
-        <option value="$PROJECT_DIR$/decorate.py" />
-        <option value="$PROJECT_DIR$/test.py" />
-        <option value="$PROJECT_DIR$/sample_input (11).txt" />
-        <option value="$PROJECT_DIR$/codescan3.py" />
-        <option value="$PROJECT_DIR$/codescan2.py" />
-        <option value="$PROJECT_DIR$/bankjob.py" />
-        <option value="$PROJECT_DIR$/codescan.py" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="539" />
-    <option name="y" value="-8" />
-    <option name="width" value="732" />
-    <option name="height" value="1047" />
-  </component>
+  <component name="ProjectId" id="1QurT0kmzNpJb9X8VHRPpeZsJvG" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Algorithm 190916" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm 190916" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
-  </component>
   <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -398,128 +177,17 @@
     </task>
     <servers />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.08061117" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3257329" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991228" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/binnum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/김선만.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/binnum2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" selection-start-column="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hornforest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="53" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lognestpath.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="11" selection-start-column="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bankjob.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="36" column="11" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
-          <folding>
-            <marker date="1568619476956" expanded="true" signature="302:493" ph="..." />
-            <marker date="1568619476956" expanded="true" signature="903:1001" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/decorate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codescan3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="64" />
-          <folding>
-            <marker date="1568618597798" expanded="true" signature="17:284" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sample_input (11).txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="15221" lean-forward="true" selection-start-line="13220" selection-end-line="15221" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codescan2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="19" selection-start-line="19" selection-end-line="32" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codescan.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="69" column="47" lean-forward="true" selection-start-line="69" selection-start-column="47" selection-end-line="69" selection-end-column="47" />
-          <folding>
-            <marker date="1568624392933" expanded="true" signature="76:2742" ph="..." />
-            <marker date="1568624392933" expanded="true" signature="1825:2534" ph="..." />
-            <marker date="1568624392933" expanded="true" signature="2550:2555" ph="..." />
-            <marker date="1568624392933" expanded="true" signature="2562:2742" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
