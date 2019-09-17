@@ -31,16 +31,12 @@ def makebin(line):
 
         are = min(cnt)
         cnt = cnt[0] * 100 + cnt[1] * 10 + cnt[2]
-        # print(cnt, are)
         if are:
             cnt = cnt // are
-        # print(cnt)
         if cnt in pattern:
             digi.append(pattern.index(cnt))
         cnt = [0, 0, 0]
-        # print(digi, temp[:j])
         if len(digi) == 8:
-            # print(digi, temp)
             tens.append(digi)
             digi = []
 

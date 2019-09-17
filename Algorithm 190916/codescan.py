@@ -12,29 +12,14 @@ def find(N, M):
             start = 0
             for j in range(len(temp) - 4):
                 if temp[j:j + 4] == '0000':
-                    res.add(temp[start:j].strip('0'))
-                    temp = temp[j:].strip('0')
-                    start += len(temp[start:j])
+                    if temp[start:j].strip('0') not in codearray:
+                        res.add(temp[start:j].strip('0'))
+                        temp = temp[j:].strip('0')
+                        start += len(temp[start:j])
         temp = temp.strip('0')
         res.add(temp)
     res.discard('')
     return res
-
-# def find(N, M):
-#     global codearray
-#     res = set()
-#     for i in range(N):
-#         temp = ''
-#         for j in range(M):
-#             if codearray[i][j] != '0':
-#                 temp += codearray[i][j]
-#             # print(temp)
-#             if len(temp) >= 14 and codearray[i][j] == '0':
-#                 res.add(temp)
-#                 temp = ''
-#     res.discard('')
-#     return res
-
 
 
 def makebin(line):
@@ -50,7 +35,9 @@ def makebin(line):
     temp = temp.rstrip('0')
     j = 0
     cnt = [0, 0, 0]  # 1,0,1 패턴
+
     digi = []
+
     while j < len(temp):
         while j < len(temp) and temp[j] == '0':
             j += 1
@@ -64,19 +51,18 @@ def makebin(line):
             j += 1
             cnt[2] += 1
 
+
         are = min(cnt)
         cnt = cnt[0] * 100 + cnt[1] * 10 + cnt[2]
-        # print(cnt, are)
         if are:
             cnt = cnt // are
-        # print(cnt)
         if cnt in pattern:
             digi.append(pattern.index(cnt))
         cnt = [0, 0, 0]
-        # print(digi, temp[:j])
         if len(digi) == 8:
-            # print(digi, temp)
-            tens.append(digi)
+            if digi not in tens:
+                tens.append(digi)
+                same.append(temp)
             digi = []
 
 
@@ -101,9 +87,10 @@ for tc in range(1, t + 1):
 
     res = []
     tens = []
+    same = []
     for i in range(len(lines)):
         makebin(lines[i])
-        # print(tens)
+    print(tens)
     for j in range(len(tens)):
         digit = code(tens[j])
         if digit:
