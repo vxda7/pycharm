@@ -8,7 +8,7 @@ b = ['0000', '0001', '0010', '0011', '0100', '0101', '0110', '0111', '1000', '10
 pattern = [211, 221, 122, 411, 132, 231, 114, 312, 213, 112]
 
 def makebin(line):
-    global tens
+        global tens
     global b
     global pattern
 

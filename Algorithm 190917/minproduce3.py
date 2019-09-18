@@ -1,18 +1,20 @@
-import sys
+import sys, time
 sys.stdin = open("sample_input (14).txt", "r")
-
+start = time.time()
 
 def perm(n, k, hap):
-    global minV, price, product
+    global minV, price, product, N
     if n == k:
         if minV > hap:
-            print(hap, product)
+            # print(hap, product)
             minV = hap
     else:
         for i in range(n, k):
             product[i], product[n] = product[n], product[i]
-            if hap + price[i][product[i]] < minV:
-                perm(n + 1, k, hap + price[i][product[i]])
+            # hap = sum([price[j][product[j]] for j in range(n + 1)])
+            temp = hap + price[n][product[n]]
+            if temp < minV:
+                perm(n + 1, k, temp)
             product[i], product[n] = product[n], product[i]
 
 
@@ -25,3 +27,5 @@ for tc in range(1, t+1):
     minV = 10000000000000000
     perm(0, N, 0)
     print("#{} {}".format(tc, minV))
+
+print(time.time() - start)

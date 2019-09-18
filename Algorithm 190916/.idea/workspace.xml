@@ -2,22 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aed697c3-256c-416b-9087-ce18b3920be3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/codescan4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm 190917/babygin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm 190917/bank.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm 190917/bestpath.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm 190917/bestpath2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm 190917/electricart.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm 190917/leastsum.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm 190917/make.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm 190917/minproduce.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm 190917/minproduce2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm 190917/minproduce3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithm 190918/.idea/Algorithm 190918.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithm 190918/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithm 190918/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithm 190918/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithm 190918/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithm 190918/babygin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithm 190918/binfind.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithm 190918/container.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithm 190918/doke.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithm 190918/merge.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithm 190918/quicksort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithm 190918/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codescan.py" beforeDir="false" afterPath="$PROJECT_DIR$/codescan.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codescan3.py" beforeDir="false" afterPath="$PROJECT_DIR$/codescan3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../김승연_binnum.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../김승연_binnum2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codescan4.py" beforeDir="false" afterPath="$PROJECT_DIR$/codescan4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm 190917/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm 190917/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm 190917/minproduce3.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm 190917/minproduce3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../extendlist.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../김승연_electricart.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../김승연_leastsum.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,9 +32,10 @@
     <session id="657275691">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -49,22 +53,22 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="33" />
-          <entry key="py" value="1528" />
+          <entry key="py" value="1529" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="1561" />
+          <entry key="Python" value="1562" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/codescan.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1347">
+            <state relative-caret-position="57">
               <caret line="3" selection-start-line="3" selection-end-line="3" />
               <folding>
                 <marker date="1568687932400" expanded="true" signature="2041:2043" ph="..." />
@@ -94,8 +98,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/codescan4.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-209">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="19">
+              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -106,8 +110,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sample_input (11).txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="101" column="26" lean-forward="true" selection-end-line="101" selection-end-column="26" />
+            <state relative-caret-position="1919">
+              <caret line="101" column="26" selection-end-line="101" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -143,33 +147,22 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1203" />
-    <option name="width" value="724" />
+    <option name="x" value="1151" />
+    <option name="width" value="776" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectId" id="1QurT0kmzNpJb9X8VHRPpeZsJvG" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Algorithm 190916" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm 190916" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Algorithm 190917" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -321,16 +314,12 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1203" y="0" width="724" height="1047" extended-state="0" />
+    <frame x="1151" y="0" width="776" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" weight="0.25801748" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" weight="0.32894737" />
-      <window_info anchor="bottom" id="Python Console" weight="0.32894737" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32894737" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.33004385" />
@@ -338,6 +327,10 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32894737" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32894737" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32894737" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -412,20 +405,20 @@
     <entry file="file://$PROJECT_DIR$/bankjob.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/codescan2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/codescan.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1347">
+        <state relative-caret-position="57">
           <caret line="3" selection-start-line="3" selection-end-line="3" />
           <folding>
             <marker date="1568687932400" expanded="true" signature="2041:2043" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codescan2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -438,15 +431,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sample_input (11).txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="101" column="26" lean-forward="true" selection-end-line="101" selection-end-column="26" />
+        <state relative-caret-position="1919">
+          <caret line="101" column="26" selection-end-line="101" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/codescan4.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-209">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="19">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>

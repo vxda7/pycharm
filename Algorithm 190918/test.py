@@ -1,0 +1,1 @@
+print(*list(range(100000,0,-1)))
