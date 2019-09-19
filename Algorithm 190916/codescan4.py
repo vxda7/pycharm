@@ -1,5 +1,6 @@
 import sys
 import time
+
 sys.stdin = open("sample_input (11).txt", "r")
 start = time.time()
 
@@ -7,8 +8,9 @@ b = ['0000', '0001', '0010', '0011', '0100', '0101', '0110', '0111', '1000', '10
      '1110', '1111']
 pattern = [211, 221, 122, 411, 132, 231, 114, 312, 213, 112]
 
+
 def makebin(line):
-        global tens
+    global tens
     global b
     global pattern
 
@@ -19,7 +21,8 @@ def makebin(line):
 
     j = 0
     cnt = [0, 0, 0]  # 1,0,1 패턴
-    digi = []
+    digi = ['0'] * 8
+    d = 0
     while j < len(temp):
         while j < len(temp) and temp[j] == '0':
             j += 1
@@ -36,13 +39,17 @@ def makebin(line):
         cnt = cnt[0] * 100 + cnt[1] * 10 + cnt[2]
         if are:
             cnt = cnt // are
+
         if cnt in pattern:
-            digi.append(pattern.index(cnt))
+            digi[d] = pattern.index(cnt)
+            d += 1
         cnt = [0, 0, 0]
-        if len(digi) == 8:
+        if d == 8:
             if digi not in tens:
                 tens.append(digi)
-            digi = []
+            d = 0
+            digi = ['0'] * 8
+
 
 
 def code(digit):
@@ -71,4 +78,4 @@ for tc in range(1, t + 1):
             res += digit
     print("#{} {}".format(tc, res))
 
-print(time.time()-start)
+print(time.time() - start)
