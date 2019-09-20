@@ -7,11 +7,10 @@ def find(scol, srow):
     global N
     dl = [0, 1, 0, -1]
     dr = [1, 0, -1, 0]
-    queue = []
+    queue = [[scol, srow]]
     visited = [[0] * N for _ in range(N)]
-    queue.append([scol, srow])
     visited[scol][srow] = 1
-    while len(queue) != 0:
+    while queue != []:
         n = queue.pop(0)
         for i in range(4):
             ndl = n[0] + dl[i]
