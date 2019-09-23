@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="caa0e4e6-96f3-4105-99e1-66af967eee63" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Algorithm 190920/.idea/Algorithm 190920.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm 190920/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm 190920/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm 190920/bfs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm 190920/cal.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm 190920/cal2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm 190920/dfs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm 190920/dfs2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm 190920/dfs3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm 190920/star.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm 190920/star2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm 190920/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star.py" beforeDir="false" afterPath="$PROJECT_DIR$/star.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../제출/김승연_maze.py" beforeDir="false" afterPath="$PROJECT_DIR$/../제출/김승연_maze.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/N-queen.py" beforeDir="false" afterPath="$PROJECT_DIR$/N-queen.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,11 +15,11 @@
     <session id="67735155">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -50,14 +37,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="2" />
-          <entry key="py" value="9020" />
+          <entry key="py" value="9530" />
           <entry key="txt" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="31" />
-          <entry key="Python" value="9020" />
+          <entry key="Python" value="9530" />
         </counts>
       </usages-collector>
     </session>
@@ -107,7 +94,7 @@
         <entry file="file://$PROJECT_DIR$/star.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="399">
-              <caret line="21" lean-forward="true" selection-end-line="34" selection-end-column="11" />
+              <caret line="21" selection-end-line="34" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -128,10 +115,7 @@
         <entry file="file://$PROJECT_DIR$/N-queen.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret lean-forward="true" />
-              <folding>
-                <marker date="1568947343111" expanded="true" signature="402:405" ph="..." />
-              </folding>
+              <caret selection-end-line="36" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -201,8 +185,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1212" />
-    <option name="width" value="715" />
+    <option name="x" value="1108" />
+    <option name="width" value="819" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -211,7 +195,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -223,6 +206,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -378,9 +362,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1212" y="0" width="715" height="1047" extended-state="0" />
+    <frame x="1108" y="0" width="819" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21713442" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18822023" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -410,8 +395,56 @@
           <line>3</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/N-queen.py</url>
+          <line>35</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/N-queen.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="left" language="Python" />
+        <watch expression="right" language="Python" />
+        <watch expression="col" language="Python" />
+        <watch expression="board" language="Python" />
+        <watch expression="cnt" language="Python" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>cnt</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>board</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>col</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>right</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>left</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../leastproduce.py" />
@@ -484,6 +517,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/star.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" selection-end-line="34" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/translator.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
@@ -518,20 +558,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/star.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" lean-forward="true" selection-end-line="34" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/N-queen.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret lean-forward="true" />
-          <folding>
-            <marker date="1568947343111" expanded="true" signature="402:405" ph="..." />
-          </folding>
+          <caret selection-end-line="36" selection-end-column="35" />
         </state>
       </provider>
     </entry>
