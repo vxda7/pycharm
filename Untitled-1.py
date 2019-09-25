@@ -1,0 +1,1 @@
+print(*list(range(90, 1, -1)))
