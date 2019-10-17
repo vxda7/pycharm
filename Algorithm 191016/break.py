@@ -18,7 +18,7 @@ def calmdown(w, h): # 부수고 나서 전부 밑으로 내려줌
             if board[j][i] != 0:
                 empty[idx][i] = board[j][i]
                 idx -= 1
-    board = empty
+    board = empty[:]
 
 def find(w, h, x): # 원하는 위치를 주면 다 부숴주는 함수
     where = [(0, 1), (1, 0), (-1, 0), (0, -1)]
@@ -32,13 +32,16 @@ def find(w, h, x): # 원하는 위치를 주면 다 부숴주는 함수
     while queue != []:
         one = queue.pop(0)
         if col != -1:   # 처음에 바닥에 닿지 않았다면
-            for boom in range(board[one[0]][one[1]] - 1):
-                for direction in where:
-                    cd = col + direction[0]
-                    rd = x + direction[1]
-                    if 0 <= cd < h and 0 <= rd < w:
-                        board[cd][rd] = 0
-                        queue.append((cd, rd))
+            if board[one[0]][one[1]] == 1:
+                board[cd][rd] = 0
+            else:
+                for boom in range(board[one[0]][one[1]] - 1):
+                    for direction in where:
+                        cd = col + direction[0]
+                        rd = x + direction[1]
+                        if 0 <= cd < h and 0 <= rd < w:
+                            board[cd][rd] = 0
+                            queue.append((cd, rd))
     calmdown(w, h)
     return howmany(w, h)
 
@@ -61,6 +64,10 @@ for tc in range(1, t + 1):
     board = [list(map(int, input().split())) for i in range(H)]
     choose = []
     empty = []
+    minV = 1000000000
     choice(W, 0, N, empty)
     print(choose)
+    find(W, H, 5)
+    find(W, H, 5)
+    print(board)
     print("#{} {}".format(tc, minV))
