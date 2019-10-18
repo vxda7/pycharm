@@ -48,8 +48,8 @@ def perm(start, end):
                 for k in range(4):
                     for l in range(4):
                         for m in range(4):
-                            temp = deepcopy(boards)
-                            res = find([i, j, k, l, m], temp, this)
+                            tem = deepcopy(boards)
+                            res = find([i, j, k, l, m], tem, this)
                             if minV > res and res != -1:
                                 minV = res
         if minV == 10000000:
