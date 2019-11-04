@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a91f28ca-a7c2-44fc-8ebd-a9625303fb95" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/stemcell.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm 191030/prosessor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Algorithm 191021.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Algorithm 191021.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithm 191030/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/block.py" beforeDir="false" afterPath="$PROJECT_DIR$/block.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm 191030/.idea/Algorithm 191030.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm 191030/.idea/Algorithm 191030.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm 191030/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm 191030/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm 191030/prosessor.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm 191030/prosessor.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,11 +18,11 @@
     <session id="-1610905819">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.2" value="5" />
-          <entry key="project.open.time.3" value="3" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.open.time.2" value="6" />
+          <entry key="project.open.time.3" value="4" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -109,14 +108,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/block.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
+            <state relative-caret-position="648">
               <caret line="24" column="63" selection-start-line="24" selection-start-column="63" selection-end-line="24" selection-end-column="63" />
-              <folding>
-                <marker date="1572419930730" expanded="true" signature="1039:1145" ph="..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -130,11 +126,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -357,8 +353,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18803419" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18803419" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -433,17 +430,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/block.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="24" column="63" selection-start-line="24" selection-start-column="63" selection-end-line="24" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/stemcell.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
@@ -454,13 +451,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/block.py">
+    <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="24" column="63" selection-start-line="24" selection-start-column="63" selection-end-line="24" selection-end-column="63" />
-          <folding>
-            <marker date="1572419930730" expanded="true" signature="1039:1145" ph="..." />
-          </folding>
+        <state relative-caret-position="135">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
