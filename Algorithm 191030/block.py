@@ -1,4 +1,9 @@
+import sys, time
+sys.stdin = open("sample_input (1).txt", "r")
+start = time.time()
+
 def destroy(chosen, w, h):
+    global maxV
     temp = [[0] * w for i in range(h)]
     for i in range(h):
         for j in range(w):
@@ -22,32 +27,31 @@ def destroy(chosen, w, h):
                     for x in range(1, xs):
                         nc = col + d[0] * x
                         nr = row + d[1] * x
-                        if 0 <= nc < h - 1 and 0 <= nr < w - 1:
-                            stack.append((nc, nr))
+                        if 0 <= nc < h and 0 <= nr < w:
+                            if temp[nc][nr] != 0:
+                                stack.append((nc, nr))
+                            elif temp[nc][nr] == 1:
+                                temp[nc][nr] = 1
         # 내려주기
         temp = list(zip(*temp))
         change = []
         for tem in temp:
             word = ''.join(list(map(str,tem))).replace('0', '')
             word_len = len(word)
-            word = '0' * (w - word_len) + word
+            word = '0' * (h - word_len) + word
             change.append(list(map(int, word)))
         temp = list(map(list, zip(*change)))
         if chosen == [2, 2, 6]:
             print(temp)
-        # for i in range(h - 1, 0, -1):
-        #     for j in range(w):
-        #         if temp[i - 1][j] == 0:
-        #             if temp[i][j] != 0:
-        #                 temp[i][j], temp[i - 1][j] = temp[i - 1][j], temp[i][j]
-    # 갯수세서 return
+
+
     cnt = 0
+    # print(temp, h, w)
     for i in range(h):
         for j in range(w):
             if temp[i][j]:
                 cnt += 1
     return cnt
-
 
 partial = []
 def perp(start, end, w):
@@ -68,10 +72,17 @@ for tc in range(1, t + 1):
     choose = []
     perp(0, N, W)
     board = [list(map(int, input().split())) for i in range(H)]
+    # cnt = 0
+    # for i in range(H):
+    #     for j in range(W):
+    #        if board[i][j]:
+    #            cnt += 1
     minV = 10000000000
-    print(choose)
+    # print(choose)
     for one in choose:
         answer = destroy(one, W, H)
         if minV > answer:
             minV = answer
     print("#{} {}".format(tc, minV))
+
+print(time.time() - start)
