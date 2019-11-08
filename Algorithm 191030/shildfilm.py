@@ -38,7 +38,7 @@ def find(d, w, k, chosen, films):
     films[chosen] = temp[:]
     # 첫번째를 선택하지 않는 경우
     find(d, w, k, chosen + 1, films)
-    
+
 # 입력받기
 t = int(input())
 for tc in range(1, t+1):
