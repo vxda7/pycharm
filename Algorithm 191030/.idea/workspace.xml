@@ -2,29 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d744a67-b6d3-4038-9d70-b4bc66f072e1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Algorithm 191021/.vscode/settings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm 191021/stemcell.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/Algorithm 191030.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/binaryfind.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/block.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prosessor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prosessor2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prosessor3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sample_input (1).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sample_input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sdoku.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sdoku2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shildfilm.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shildfilm2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algorithm 191021/.idea/Algorithm 191021.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm 191021/.idea/Algorithm 191021.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algorithm 191021/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm 191021/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algorithm 191021/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm 191021/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algorithm 191021/block.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm 191021/block.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/block.py" beforeDir="false" afterPath="$PROJECT_DIR$/block.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +39,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.shildfilm2">
+  <component name="RunManager" selected="Python.block">
     <configuration name="block" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Algorithm 191030" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -175,10 +154,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.block" />
         <item itemvalue="Python.shildfilm2" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.shildfilm" />
-        <item itemvalue="Python.block" />
         <item itemvalue="Python.sdoku2" />
       </list>
     </recent_temporary>
@@ -201,7 +180,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

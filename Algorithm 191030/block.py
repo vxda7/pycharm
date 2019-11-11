@@ -17,9 +17,28 @@ def destroy(chosen, w, h):
             if idx == h:
                 idx = h - 1
                 break
-        stack = [(idx, one)]
-        while stack != []:
-            col, row = stack.pop(0)
+        stack = [(idx, one)] + ([(-1, -1)] * 180)
+        # while stack != []:
+        #     col, row = stack.pop(0)
+        #     xs = temp[col][row]
+        #     temp[col][row] = 0
+        #     if xs > 1:
+        #         for d in di:
+        #             for x in range(1, xs):
+        #                 nc = col + d[0] * x
+        #                 nr = row + d[1] * x
+        #                 if 0 <= nc < h and 0 <= nr < w:
+        #                     if temp[nc][nr] != 0:
+        #                         stack.append((nc, nr))
+        #                     elif temp[nc][nr] == 1:
+        #                         temp[nc][nr] = 1
+        ####################
+        startidx = 0
+        endidx = 1
+        while startidx != endidx:
+            col, row = stack[startidx]
+            startidx += 1
+            endidx += 1
             xs = temp[col][row]
             temp[col][row] = 0
             if xs > 1:
@@ -29,9 +48,20 @@ def destroy(chosen, w, h):
                         nr = row + d[1] * x
                         if 0 <= nc < h and 0 <= nr < w:
                             if temp[nc][nr] != 0:
-                                stack.append((nc, nr))
+                                stack[endidx] = (nc, nr)
+                                endidx += 1
                             elif temp[nc][nr] == 1:
                                 temp[nc][nr] = 1
+
+
+        ####################
+
+        # hap = 0
+        # for z in range(h):
+        #     hap += sum(temp[z])
+        # if hap == 0:
+        #     return 0
+
         # 내려주기
         temp = list(zip(*temp))
         change = []
