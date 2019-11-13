@@ -2,11 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a91f28ca-a7c2-44fc-8ebd-a9625303fb95" name="Default Changelist" comment="">
+<<<<<<< HEAD
+      <change afterPath="$PROJECT_DIR$/../Algorithm 191020/cook.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithm 191020/sweetpotato.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Algorithm 191021.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Algorithm 191021.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/block.py" beforeDir="false" afterPath="$PROJECT_DIR$/block.py" afterDir="false" />
+=======
       <change afterPath="$PROJECT_DIR$/../Algorithm 191030/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Algorithm 191030/.idea/Algorithm 191030.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm 191030/.idea/Algorithm 191030.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Algorithm 191030/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm 191030/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Algorithm 191030/prosessor.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm 191030/prosessor.py" afterDir="false" />
+>>>>>>> dfc355c39ca8ec99513a1d691387b22b12e5d77c
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,6 +23,8 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< HEAD
+=======
   <component name="FUSProjectUsageTrigger">
     <session id="-1610905819">
       <usages-collector id="statistics.lifecycle.project">
@@ -146,6 +157,7 @@
       </file>
     </leaf>
   </component>
+>>>>>>> dfc355c39ca8ec99513a1d691387b22b12e5d77c
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -156,6 +168,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+<<<<<<< HEAD
+  <component name="ProjectId" id="1Spk7eCkkhFvMNPQdPidfBIPUPk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+=======
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -201,6 +219,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Algorithm 191030" />
+>>>>>>> dfc355c39ca8ec99513a1d691387b22b12e5d77c
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -351,6 +370,18 @@
     </task>
     <servers />
   </component>
+<<<<<<< HEAD
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+=======
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
@@ -458,5 +489,6 @@
         </state>
       </provider>
     </entry>
+>>>>>>> dfc355c39ca8ec99513a1d691387b22b12e5d77c
   </component>
 </project>

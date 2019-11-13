@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="2d744a67-b6d3-4038-9d70-b4bc66f072e1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
+=======
+      <change beforePath="$PROJECT_DIR$/block.py" beforeDir="false" afterPath="$PROJECT_DIR$/block.py" afterDir="false" />
+>>>>>>> 83333da125de4500b55cb0d2e574bd08a9250a13
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,6 +14,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< HEAD
   <component name="FUSProjectUsageTrigger">
     <session id="1083623683">
       <usages-collector id="statistics.lifecycle.project">
@@ -155,6 +160,8 @@
       </file>
     </leaf>
   </component>
+=======
+>>>>>>> 83333da125de4500b55cb0d2e574bd08a9250a13
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -162,15 +169,10 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>isit</find>
-      <find>print</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+<<<<<<< HEAD
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -213,6 +215,10 @@
       <pane id="Scope" />
     </panes>
   </component>
+=======
+  <component name="ProjectId" id="1TPyi47t935PIwBWIl2hiy1yPWn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+>>>>>>> 83333da125de4500b55cb0d2e574bd08a9250a13
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -229,7 +235,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.shildfilm2">
+  <component name="RunManager" selected="Python.block">
     <configuration name="block" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Algorithm 191030" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -344,10 +350,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.block" />
         <item itemvalue="Python.shildfilm2" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.shildfilm" />
-        <item itemvalue="Python.block" />
         <item itemvalue="Python.sdoku2" />
       </list>
     </recent_temporary>
@@ -365,6 +371,7 @@
     </task>
     <servers />
   </component>
+<<<<<<< HEAD
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
@@ -500,5 +507,19 @@
         </state>
       </provider>
     </entry>
+=======
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+>>>>>>> 83333da125de4500b55cb0d2e574bd08a9250a13
   </component>
 </project>
