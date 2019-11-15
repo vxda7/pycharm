@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee5480c8-045f-459a-b48f-2e4eda634163" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/block.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/castledefense.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cook.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dessert_cafe.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fugitive.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/laboratory3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/laboratory3_2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algorithm 191113/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm 191113/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laboratory3_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/laboratory3_2.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,33 +15,33 @@
     <session id="-274408617">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.2" value="2" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="7" />
+          <entry key="py" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="7" />
+          <entry key="Python" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="2" />
-          <entry key="py" value="11023" />
+          <entry key="py" value="11570" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="11023" />
+          <entry key="Python" value="11570" />
         </counts>
       </usages-collector>
     </session>
@@ -86,8 +78,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/laboratory3_2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
-              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+            <state relative-caret-position="216">
+              <caret line="32" column="23" lean-forward="true" selection-end-line="77" />
             </state>
           </provider>
         </entry>
@@ -120,12 +112,13 @@
         <option value="$PROJECT_DIR$/laboratory.py" />
         <option value="$PROJECT_DIR$/laboratory3.py" />
         <option value="$PROJECT_DIR$/laboratory3_2.py" />
+        <option value="$PROJECT_DIR$/stemcell.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="952" />
-    <option name="width" value="975" />
+    <option name="x" value="999" />
+    <option name="width" value="928" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -136,6 +129,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -147,11 +141,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Algorithm 191115" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -303,10 +296,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="952" y="0" width="975" height="1047" extended-state="0" />
-    <editor active="true" />
+    <frame x="999" y="0" width="928" height="1047" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.22091782" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23258427" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
@@ -319,7 +311,7 @@
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="9" />
-      <window_info active="true" anchor="bottom" id="Run" order="10" visible="true" weight="0.43311402" />
+      <window_info anchor="bottom" id="Run" order="10" weight="0.39473686" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -387,10 +379,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/stemcell.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/laboratory3_2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+        <state relative-caret-position="216">
+          <caret line="32" column="23" lean-forward="true" selection-end-line="77" />
         </state>
       </provider>
     </entry>
